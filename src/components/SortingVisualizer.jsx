@@ -29,7 +29,7 @@ const SortingVisualizer = () => {
       Math.floor(Math.random() * 300) + 10
     );
     setArray(arr);
-    setBarColors(new Array(arr.length).fill("red"));
+    setBarColors(new Array(arr.length).fill("blue"));
     setIsSorting(false);
     isSortingRef.current = false;
     currentStep.current = 0;
